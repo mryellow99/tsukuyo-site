@@ -1,4 +1,6 @@
-{
+/* ---- particles.js config ---- */
+
+particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 160,
@@ -11,7 +13,7 @@
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -107,4 +109,5 @@
     }
   },
   "retina_detect": true
-}
+});
+
