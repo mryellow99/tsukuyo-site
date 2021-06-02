@@ -1,7 +1,13 @@
+@font-face {
+  font-family: 'PixelMplus12-Regular';
+  src: url('font/PixelMplus12-Regular.ttf');
+}
 
 body {
   margin: 0;
+  font-family: 'PixelMplus12-Regular';
 }
+
 .container {
   max-width: 800px;
   width: 100%;
@@ -71,11 +77,59 @@ body {
   margin-top: 80px;
 }
 
-
 .mb120 {
   margin-bottom: 120px;
 }
 
 .mt120 {
   margin-top: 120px;
+}
+
+.line-height2 {
+  line-height: 2;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.heading1 {
+  position: relative;
+  padding-left: 1.3em;
+}
+
+.heading1::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 0.8em;
+  height: 0.8em;
+  background: #062dbc;
+}
+
+.table-style {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 3;
+}
+
+.table-style dt {
+  width: calc(20% - 5px);
+  text-align: center;
+  background: #eff0f6;
+  margin: 5px 5px 5px 0px;
+}
+
+.table-style dd {
+  width: calc(80% - 24px);
+  margin: 5px 0px 5px 24px;
+}
+
+.multiple-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
