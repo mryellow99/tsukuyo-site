@@ -133,3 +133,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.copyright {
+  text-align: center;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 8px;
+  background: #eff0f6;
+}
