@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+}
+
+#top-sky {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top-sky h1 {
+  text-align: center;
+}
+#top-sky img {
+  width: 50%;
+}
+.gradient-animation {
+  background: linear-gradient(245deg, #6f06bc, #062dbc, #0d1651, #1055a0);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 18s ease infinite;
+  -moz-animation: AnimationName 18s ease infinite;
+  animation: AnimationName 18s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 87%}
+  50%{background-position:100% 14%}
+  100%{background-position:0% 87%}
+}
