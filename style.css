@@ -20,6 +20,10 @@ body {
     margin-right: 16px;
     margin-left: 16px;
   }
+  .table-style dt,
+  .table-style dd {
+    width: 100%;
+  }
 }
 
 #particles-js {
